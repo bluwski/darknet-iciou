@@ -1,0 +1,51 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230918173518
+Username: BLUWSKI\nugra
+RunAs User: BLUWSKI\nugra
+Configuration Name: 
+Machine: BLUWSKI (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 12348
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\darknet-iciou/build.log
+Build script version 2.3.3, utils module version 0.3.0
+PowerShell version:
+
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      1      22621  1778
+Running on Windows Powershell, please consider update and running on newer Powershell versions
+vcpkg bootstrap script: bootstrap-vcpkg.bat
+CUDA is enabled
+CUDNN is enabled
+OPENCV is enabled
+OPENCV with CUDA extension is not enabled, you can enable it passing -EnableOPENCV_CUDA
+VCPKG is enabled
+VCPKG will be updated to latest version if found
+VisualStudio integration is enabled, please pass -DoNotSetupVS to the script to disable
+Yolo C# wrapper integration is disabled, please pass -EnableCSharpWrapper to the script to enable. You must be on Windows!
+Ninja is enabled, please pass -DoNotUseNinja to the script to disable
+ForceCPP build mode is disabled, please pass -ForceCPP to the script to enable
+Using git from C:\Program Files\Git\cmd\git.exe
+This tool has been cloned with git and supports self-updating mechanism
+This tool will self-update sources, please pass -DoNotUpdateTOOL to the script to disable
+1
+>> TerminatingError(): "ScriptHalted"
+>> TerminatingError(): "ScriptHalted"
+>> TerminatingError(): "ScriptHalted"
+ScriptHalted
+At C:\darknet-iciou\scripts\utils.psm1:285 char:7
++       throw
++       ~~~~~
+    + CategoryInfo          : OperationStopped: (:) [], RuntimeException
+    + FullyQualifiedErrorId : ScriptHalted
+
